@@ -1,38 +1,21 @@
-// Arrays for the random layers of illustrations
 
-var background = [
+var img = document.createElement("img");
+img.src = "./assets/images/bg/1.svg";
 
- 'background-cheese.svg',
-'background-clouds.svg',
-'background-swamp.svg',
-'background-volcano.svg',
-];
+var block = document.getElementById("displayer");
+block.appendChild(img);
 
 
 
 
 
 
-//Let's randoming 
-function getRandomImage() {
-    var randomNum = Math.floor(Math.random() * (background.length));
-}
+//pop up overlay
 
-
-//Display illustration
-document.getElementById('displayer').innerHTML = background[randomNum];
-
-
-
-
-
-
-//Order of layers
-background.style.zIndex = 10;
-
-
-
-//I wanna display fullscreen content (images)
-function makeFullScreen() {
-    var divObj = document.getElementById('displayer');
-}
+function on() {
+    document.getElementById("displayer").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("displayer").style.display = "none";
+  } 

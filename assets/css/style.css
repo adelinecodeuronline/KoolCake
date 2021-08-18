@@ -1,0 +1,136 @@
+:root {
+    --orangebar: #ff7b4d;
+    --purplebar: #b650ff;
+    --bluebar: #20efc8;
+    --text: rgba(255, 255, 255, 0.4);
+}
+
+
+
+* {
+    margin:0;
+    padding: 0;
+    top: 0;
+    border: 0;
+    font-family: 'Bahnschrift', 'Signika', sans-serif;
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../fonts/BAHNSCHRIFT.TTF");
+        }
+
+     
+body {
+    animation-name: colorful;
+    animation-duration: 65s;
+    animation-iteration-count: infinite;
+      
+ }
+ 
+ @keyframes colorful {
+     0% {
+         background-color: #320056;
+     }
+ 
+             30% {
+                 background-color: #14101c;
+                     }
+ 
+                     50% {
+                         background-color: #320056;
+                             }
+ 
+                             
+                             80% {
+                                 background-color: #910050;
+                                     }
+
+                                     100% {
+                                        background-color: #47007a;
+                                    }
+ }
+
+
+
+
+
+/*************************************************/
+
+
+#group {
+
+    width: 50vw;
+    margin-left: 20vw;
+    margin-top: 17vh;
+}
+
+
+
+#logo {
+max-width: 100%;
+height: auto;
+}
+
+
+#bars {
+    margin-top: 3em;
+   
+}
+
+#orange_bar {
+    border-bottom: 1.6em solid var(--orangebar);
+    width: 29.5vw;
+    margin-bottom: 2em;
+}
+
+
+#purple_bar {
+    border-bottom: 1.6em solid var(--purplebar);
+    width: 25vw;
+    margin-bottom: 2em;
+}
+
+#blue_bar {
+    border-bottom: 1.6em solid var(--bluebar);
+    width: 35vw;
+    margin-bottom: 2em;
+}
+
+
+
+ button {
+
+    display: block;
+    background-color: var(--orangebar);
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 1.35em;
+    padding: 0.3em 2.2em;
+    cursor: pointer;
+    white-space: pre-line;
+    font-weight: 600;
+    
+}
+
+#displayer {
+width: 100% !important;
+height: 100% !important;
+margin: auto !important;
+position: relative;
+z-index: 10;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--text);
+    display: block;
+    transform: translateX(85vw);
+}
+
+

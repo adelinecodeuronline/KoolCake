@@ -2,11 +2,11 @@
 //randoming background
 
 var img_name = new Array("./assets/images/bg/1.svg", "./assets/images/bg/2.svg",
-"./assets/images/bg/3.svg", "./assets/images/bg/4.svg");
+"./assets/images/bg/3.svg", "./assets/images/bg/4.svg", "./assets/images/bg/5.svg", "./assets/images/bg/6.svg");
 
 var l = img_name.length;
 
-var rnd_no = Math.floor((Math.random() * 4));
+var rnd_no = Math.floor((Math.random() * 6));
 
 document.r_img.src = img_name[rnd_no];
 
@@ -19,11 +19,12 @@ document.getElementById("character-right").style.zIndex = "10";
 
 var img_character = new Array("./assets/images/character-right/a.svg", "./assets/images/character-right/b.svg",
 "./assets/images/character-right/c.svg", "./assets/images/character-right/d.svg", "./assets/images/character-right/e.svg", 
-"./assets/images/character-right/f.svg", "./assets/images/character-right/g.svg", "./assets/images/character-right/h.svg");
+"./assets/images/character-right/f.svg", "./assets/images/character-right/g.svg", "./assets/images/character-right/h.svg", 
+"./assets/images/character-right/i.svg", "./assets/images/character-right/j.svg", "./assets/images/character-right/k.svg");
 
 var character = img_character.length;
 
-var rnd_no2 = Math.floor((Math.random() * 8));
+var rnd_no2 = Math.floor((Math.random() * 11));
 
 document.r_img2.src = img_character[rnd_no2];
 

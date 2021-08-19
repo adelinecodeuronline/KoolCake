@@ -100,7 +100,7 @@ height: auto;
 }
 
 
-
+/* generate button*/
  button {
 
     display: block;
@@ -117,8 +117,8 @@ height: auto;
 }
 
 
-
-#regenerate {
+/*2d button (have to improve)*/
+#reload {
     display: block;
     background-color: var(--orangebar);
     border: none;
@@ -137,6 +137,8 @@ height: auto;
 }
 
 
+
+/*parameters for layers*/
 #bg {
     max-width: 100%;
     height: auto;
@@ -149,9 +151,9 @@ height: auto;
 
 
 #character-left {
-    max-width: 17%;
+    max-width: 20%;
     margin-left: 25vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
     height: auto;
     position: absolute;
     
@@ -159,8 +161,8 @@ height: auto;
 }
 
 #character-right {
-    max-width: 17%;
-    margin-left: 55vw;
+    max-width: 20%;
+    margin-left: 50vw;
     margin-top: 20vh;
     height: auto;
     position: absolute;
@@ -171,7 +173,7 @@ height: auto;
 
 
 
-
+/*pop up illustrations*/
 #displayer {
 width: 100%;
 height: 100%;
@@ -185,11 +187,10 @@ z-index: 10;
 cursor: pointer;
 background-color: rgba(38, 0, 46, 0.9);
 
-
 }
 
 
-
+/*Pop up What is it section*/
 #whatisit {
 
 width: 100%;
@@ -229,7 +230,7 @@ margin-left: 15vw;
 
 
 
-
+/*Link for what is it section*/
 a {
     text-decoration: none;
     color: var(--text);

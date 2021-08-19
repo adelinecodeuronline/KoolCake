@@ -48,7 +48,7 @@ document.getElementById("character-left").style.zIndex = "20";
 
 
 
-const reloadtButton = document.querySelector("#reload"); // pretty good...but I have to find a way to refresh only the displayer...
+const reloadtButton = document.querySelector("#reload"); // pretty good...but I have to find a way to refresh only the displayer/images without exit...
 // Reload everything:
 function reload() {
     reload = location.reload();
@@ -65,7 +65,27 @@ reloadButton.addEventListener("click", reload, false);
 function on() {
     document.getElementById("displayer").style.display = "block";
   }
+
+  //no use for the moment (to be attached on an exit cross)
   
-  function off() {
+  /*function off() {
     document.getElementById("displayer").style.display = "none";
+  } */ 
+
+
+
+  //2d pop up overlay for "KoolCake ? What Is It / Qu'est-ce que c'est ?"
+
+function whatIsIt() {
+  document.getElementById("whatisit").style.display = "block";
+}
+
+function offWhatisit() {  // closed when we click inside
+    document.getElementById("whatisit").style.display = "none";
   } 
+
+
+
+  
+  
+  //Want to improve : add sounds attached on the images

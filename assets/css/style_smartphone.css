@@ -1,0 +1,135 @@
+@media (max-width: 750px) {
+
+
+
+:root {
+    --orangebar: #ff7b4d;
+    --purplebar: #b650ff;
+    --bluebar: #20efc8;
+    --text: rgba(255, 255, 255, 0.4);
+}
+
+
+
+* {
+    margin:0;
+    padding: 0;
+    top: 0;
+    border: 0;
+    font-family: 'Bahnschrift', 'Signika', sans-serif;
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../fonts/BAHNSCHRIFT.TTF");
+        }
+
+
+
+
+        body {
+            background-color: #320056;
+              
+         }
+
+
+         #reload {
+            
+            margin-left: -53vw;
+           
+        
+        }
+
+
+
+        #bg {
+           
+            margin-top: 25vh;
+            
+           
+        }
+
+        #character-left {
+            
+            transform: translateY(15vh);
+            
+            
+        }
+        
+        #character-right {
+          
+            transform: translateY(15vh);
+            
+            
+        }
+
+        
+        #whatisit h1 {
+            
+            transform: translateY(-2.6em);
+            
+                
+            }
+            
+            
+            #whatisit p {
+                
+                transform: translateY(-6.4em);
+               
+                }
+
+
+                a {
+                   margin-top: 15vh;
+                   margin-left: -15em;
+                }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }

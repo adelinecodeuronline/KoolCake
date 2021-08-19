@@ -130,7 +130,7 @@ height: auto;
     white-space: pre-line;
     font-weight: 600;
     transform: translateX(89vw);
-    margin-top: 50vh;
+    margin-top: 87vh;
     position: absolute;
     z-index: 100;
 
@@ -138,7 +138,7 @@ height: auto;
 
 
 #bg {
-    max-width: 97%;
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -151,7 +151,7 @@ height: auto;
 #character-left {
     max-width: 17%;
     margin-left: 25vw;
-    margin-top: 15vh;
+    margin-top: 20vh;
     height: auto;
     position: absolute;
     
@@ -161,7 +161,7 @@ height: auto;
 #character-right {
     max-width: 17%;
     margin-left: 55vw;
-    margin-top: 15vh;
+    margin-top: 20vh;
     height: auto;
     position: absolute;
     
@@ -187,21 +187,6 @@ background-color: rgba(38, 0, 46, 0.9);
 
 
 }
-
-
-
-
-
-
-/*#background {
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 11;
-}*/
-
-
 
 
 

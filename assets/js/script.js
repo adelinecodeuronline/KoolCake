@@ -6,7 +6,7 @@ var img_name = new Array("./assets/images/bg/1.svg", "./assets/images/bg/2.svg",
 
 var l = img_name.length;
 
-var rnd_no = Math.floor(l*Math.random());
+var rnd_no = Math.floor((Math.random() * 4));
 
 document.r_img.src = img_name[rnd_no];
 
@@ -23,7 +23,7 @@ var img_character = new Array("./assets/images/character-right/a.svg", "./assets
 
 var character = img_character.length;
 
-var rnd_no2 = Math.floor(2*Math.random());
+var rnd_no2 = Math.floor((Math.random() * 8));
 
 document.r_img2.src = img_character[rnd_no2];
 
@@ -38,15 +38,15 @@ var img_character_left = new Array("./assets/images/character-left/y-1.svg", "./
 
 var character_left = img_character_left.length;
 
-var rnd_no3 = Math.floor(l*Math.random());
+var rnd_no3 = Math.floor((Math.random() * 8));
 
 document.r_img3.src = img_character_left[rnd_no3];
 
-document.getElementById("character-left").style.zIndex = "21"; 
+document.getElementById("character-left").style.zIndex = "20"; 
 
 
 
-/*
+
 
 const reloadtButton = document.querySelector("#reload"); // pretty good...but I have to find a way to refresh only the displayer...
 // Reload everything:
@@ -54,31 +54,7 @@ function reload() {
     reload = location.reload();
 }
 // Event listeners for reload
-reloadButton.addEventListener("click", reload, false);*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////////////////////////////////////////////////////
-//right but not random
-/*var img = document.createElement("img");
-img.src = "./assets/images/bg/1.svg";
-
-var block = document.getElementById("displayer");
-block.appendChild(img);*/
-
+reloadButton.addEventListener("click", reload, false);
 
 
 
